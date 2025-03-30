@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="kalkulator.css">
+    <script src="kalkulator.js"></script>
+    <title>Kalkulator walut</title>
+</head>
+<body>
+    <ul>
+        <li><a class="active" href="kalkulator.html">STRONA GŁÓWNA</a></li>
+    </ul>
+ 
+    <div id="kalkulatorjednowalutowy" style="display: block;" class="kalkulatorjednowalutowy">
+    <div class="container1">KALKULATOR WALUT</div>
+ 
+    <div class="waluta1">
+        <label for="waluta1">WALUTA</label>
+        <select id="waluta1">
+        <option value="PLN">PLN</option>
+        <option value="EUR">EUR</option>
+        <option value="KRW">KRW</option>
+        <option value="GBP">GBP</option>
+        <option value="CNY">CNY</option>
+        <option value="USD">USD</option>
+    </select>
+    </div>
+ 
+    <div class="waluta2">
+        <label for="waluta2">WALUTA</label>
+        <select id="waluta2">
+        <option value="PLN">PLN</option>
+        <option value="EUR">EUR</option>
+        <option value="KRW">KRW</option>
+        <option value="GBP">GBP</option>
+        <option value="CNY">CNY</option>
+        <option value="USD">USD</option>
+    </select>
+    </div>
+ 
+    <div class="kwota1" id="kwota1">
+        <label for="kwota1"></label>
+        <input type="number" id="inputkwota1" name="kwota1" placeholder="Kwota...">
+    </div>
+ 
+    <div class="wynik1" id="wynik1">
+        <label for="wynik1"></label>
+        <input type="text" id="inputwynik1" name="inputwynik1" placeholder="Kwota..." readonly>
+    </div>
+ 
+    <div class="arrow">&#8680;</div>
+ 
+    <div class="przelicz1" onclick="obliczonaKwota()">PRZELICZ</div>
+ 
+    <div class="usun1" id="usun1" onclick="usunKwoty()">USUŃ</div>
+ 
+    <button class="przelacznik1" onclick="toggleDivs1()">PRZEŁĄCZ KALKULATOR WIELOWALUTOWY</button>
+    </div>
+ 
+    <div id="kalkulatorwielowalutowy" style="display: none;" class="kalkulatorwielowalutowy">
+    <div class="container2">KALKULATOR WALUT</div>
+ 
+    <div class="kwota3">
+        <label for="kwota3"></label>
+        <input type="number" id="inputkwota3" name="kwota3" placeholder="Kwota...">
+    </div>
+ 
+    <div class="waluta3">
+        <label for="waluta3">WALUTA</label>
+        <select id="waluta3">
+        <option value="PLN">PLN</option>
+        <option value="EUR">EUR</option>
+        <option value="KRW">KRW</option>
+        <option value="GBP">GBP</option>
+        <option value="CNY">CNY</option>
+        <option value="USD">USD</option>
+    </select>
+    </div>
+ 
+    <div class="przelicz2" onclick="obliczoneWszystkieKwoty()">PRZELICZ</div>
+
+    <div class="usun2" id="usun2" onclick="usunKwoty()">USUŃ</div>
+ 
+    <div class="arrow2">&#8681;</div>
+ 
+    <div class="wynik4">
+        <label for="kwota4"></label>
+        <input type="text" id="inputwynik4" name="kwota4" placeholder="Kwota..." readonly>
+    </div>
+ 
+    <div class="wynik5">
+        <label for="kwota5"></label>
+        <input type="text" id="inputwynik5" name="kwota5" placeholder="Kwota..." readonly>
+    </div>
+ 
+    <div class="wynik6">
+        <label for="kwota6"></label>
+        <input type="text" id="inputwynik6" name="kwota6" placeholder="Kwota..." readonly>
+    </div>
+ 
+    <div class="wynik7">
+        <label for="kwota7"></label>
+        <input type="text" id="inputwynik7" name="kwota7" placeholder="Kwota..." readonly>
+    </div>
+ 
+    <div class="wynik8">
+        <label for="kwota8"></label>
+        <input type="text" id="inputwynik8" name="kwota8" placeholder="Kwota..." readonly>
+    </div>
+
+    <button class="przelacznik2" onclick="toggleDivs2()">PRZEŁĄCZ KALKULATOR JEDNOWALUTOWY</button>
+
+</body>
+</html>

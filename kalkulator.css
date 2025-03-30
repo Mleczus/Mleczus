@@ -1,0 +1,408 @@
+body{
+  background-color: #B266FF;
+  font-family: 'Titan One', sans-serif;;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #F5F5F5;
+border: 2px solid black;
+}
+
+li {
+float: left;
+}
+
+li a {
+display: block;
+color: black;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+li a:hover {
+background-color: pink;
+}
+
+.titan-one-regular {
+font-family: "Titan One", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.container1{
+width: 350px;
+height: 85px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid black;
+margin-top: 50px;
+margin-left: 750px;
+font-size: 30px;
+}
+
+.waluta1{
+width: 250px;
+height: 75px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid black;
+margin-top: 75px;
+margin-left: 300px;
+font-size: 25px;
+font-family: "Titan One", sans-serif;
+font-weight: 400;
+font-style: normal;
+border-radius: 15px;
+}
+
+.waluta2{
+width: 250px;
+height: 75px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid black;
+margin-top: -80px;
+margin-left: 1300px;
+font-size: 25px;
+font-family: "Titan One", sans-serif;
+font-weight: 400;
+font-style: normal;
+border-radius: 15px;
+}
+
+.kwota1{
+width: 300px;
+height: 85px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid black;
+margin-top: 75px;
+margin-left: 275px;
+border-radius: 15px;
+}
+
+#inputkwota1{
+width: 299px;
+height: 80px;
+font-family: "Titan One", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 40px;
+border-radius: 15px;
+}
+
+.wynik1{
+width: 300px;
+height: 85px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid black;
+margin-top: -90px;
+margin-left: 1275px;
+border-radius: 15px;
+}
+
+#inputwynik1{
+width: 299px;
+height: 80px;
+font-family: "Titan One", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 40px;
+border-radius: 15px;
+}
+
+.arrow{
+font-size: 200px;
+color: white;
+margin-top: -170px;
+margin-left: 850px;
+}
+
+.przelicz1{
+width: 250px;
+height: 75px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid black;
+margin-top: 50px;
+font-size: 30px;
+margin-top: 50px;
+margin-left: 450px;
+cursor: pointer;
+border-radius: 15px;
+}
+
+.usun1{
+width: 250px;
+height: 75px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid black;
+margin-top: -80px;
+margin-left: 1150px;
+font-size: 30px;
+cursor: pointer;
+border-radius: 15px;
+}
+
+.przelacznik1{
+width: 250px;
+height: 75px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+text-align: center;
+border: 2px solid black;
+font-size: 15px;
+margin-top: 100px;
+margin-left: 810px;
+cursor: pointer;
+font-family: "Titan One", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.container2{
+width: 350px;
+height: 85px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid black;
+margin-top: 50px;
+margin-left: 750px;
+font-size: 30px;
+}
+
+.waluta3{
+width: 250px;
+height: 75px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid black;
+margin-top: -80px;
+margin-left: 1100px;
+font-size: 25px;
+font-family: "Titan One", sans-serif;
+font-weight: 400;
+font-style: normal;
+border-radius: 15px;
+}
+
+.kwota3{
+width: 300px;
+height: 85px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid black;
+margin-top: 100px;
+margin-left: 475px;
+border-radius: 15px;
+}
+
+#inputkwota3{
+width: 299px;
+height: 80px;
+font-family: "Titan One", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 40px;
+border-radius: 15px;
+}
+
+.przelicz2{
+width: 500px;
+height: 75px;
+background-color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px solid black;
+margin-top: 50px;
+font-size: 30px;
+margin-top: 40px;
+margin-left: 500px;
+cursor: pointer;
+border-radius: 15px;
+}
+
+.usun2{
+  width: 250px;
+  height: 75px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin-top: -80px;
+  margin-left: 1050px;
+  font-size: 30px;
+  cursor: pointer;
+  border-radius: 15px;
+  }
+
+.arrow2{
+  font-size: 200px;
+  color: white;
+  margin-top: -20px;
+  margin-left: 850px;
+}
+
+.wynik4{
+  width: 300px;
+  height: 85px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin-top: 5px;
+  margin-left: 750px;
+  border-radius: 15px;
+}
+
+#inputwynik4{
+  width: 299px;
+  height: 80px;
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  border-radius: 15px;
+}
+
+.wynik5{
+  width: 300px;
+  height: 85px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin-top: -89px;
+  margin-left: 350px;
+  border-radius: 15px;
+}
+
+#inputwynik5{
+  width: 299px;
+  height: 80px;
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  border-radius: 15px;
+}
+
+.wynik6{
+  width: 300px;
+  height: 85px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin-top: -89px;
+  margin-left: 1150px;
+  border-radius: 15px;
+}
+
+#inputwynik6{
+  width: 299px;
+  height: 80px;
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  border-radius: 15px;
+}
+
+.wynik7{
+  width: 300px;
+  height: 85px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin-top: 50px;
+  margin-left: 555px;
+  border-radius: 15px;
+}
+
+#inputwynik7{
+  width: 299px;
+  height: 80px;
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  border-radius: 15px;
+}
+
+.wynik8{
+  width: 300px;
+  height: 85px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  margin-top: -89px;
+  margin-left: 955px;
+  border-radius: 15px;
+}
+
+#inputwynik8{
+  width: 299px;
+  height: 80px;
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 40px;
+  border-radius: 15px;
+}
+
+.przelacznik2{
+  width: 250px;
+  height: 75px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 2px solid black;
+  font-size: 15px;
+  margin-top: 50px;
+  margin-left: 780px;
+  cursor: pointer;
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  }
