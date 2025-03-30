@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Mleczus
 - 👀 I’m interested in programing , video games and cooking.
-- 🌱 I’m currently learning JS , HTML , CSS , PHP , DATABASES.
+- 🌱 I’m currently learning JS , HTML , CSS , PHP , C++ , DATABASES.
 - 📫 How to reach me INSTA , YT and TWITCH.
 - 😄 Pronouns: he / him
 - ⚡ Fun fact: I like to eat.
